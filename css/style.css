@@ -1,0 +1,104 @@
+ /*#img{*/
+    /*-webkit-animation:loading 2s 0s linear;*/
+/*}*/
+/*@-webkit-keyframes loading {*/
+    /*0%{*/
+        /*margin-top:30%;*/
+        /*opacity: 0;*/
+    /*}*/
+
+    /*100%{*/
+        /*margin-top:5%;*/
+        /*opacity: 1;*/
+    /*}*/
+/*}*/
+.title{
+    margin-bottom: 50px;
+}
+.title .title_en{
+    width: 100px;
+    height: 3px;
+    background-color: red;
+}
+
+.table>tbody>tr>td{
+    border-top:1px solid white;
+}
+
+.bk{
+    width: 100%;
+}
+.bk1{
+    width: 16.667%;
+}
+
+#firstSec{
+    margin-top:15%;
+}
+#Page3title{
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top:20%;
+    left: 40%;
+}
+/* line 31, ../sass/demo3.scss */
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* line 35, ../sass/demo3.scss */
+.wrap .progress-radial {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+/* line 43, ../sass/demo3.scss */
+.wrap .progress-radial .overlay {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 25px;
+    text-align: center;
+    background-color: #fffde8;
+    font-size: 20px;
+    line-height: 50px;
+}
+/* line 57, ../sass/demo3.scss */
+.wrap .progress-25 {
+    background-image: linear-gradient(180deg, transparent 50%, #7BAABE 50%, #7BAABE), linear-gradient(90deg, transparent 50%, tomato 50%, tomato);
+}
+/* line 57, ../sass/demo3.scss */
+.wrap .progress-50 {
+    background-image: linear-gradient(90deg, transparent 50%, tomato 50%, tomato), linear-gradient(90deg, #7BAABE 50%, tomato 50%, tomato);
+}
+/* line 57, ../sass/demo3.scss */
+.wrap .progress-75 {
+    background-image: linear-gradient(90deg, transparent 50%, tomato 50%, tomato), linear-gradient(180deg, #7BAABE 50%, tomato 50%, tomato);
+}
+/* line 57, ../sass/demo3.scss */
+.wrap .progress-90 {
+    background-image: linear-gradient(90deg, transparent 50%, tomato 50%, tomato), linear-gradient(234deg, #7BAABE 50%, tomato 50%, tomato);
+}
+.wrap p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.demo{
+    width: 250px;
+    height: 150px;
+}
+.demodiv{
+    display: inline-block;
+    position: absolute;
+    left:15px;
+}
+.demodiv{
+    transition:all 0.5s linear 0s;
+ }
+.demodiv:hover{
+    background-color:rgba(0,0,45,0.4);
+}
